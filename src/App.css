@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 3em;
+  color: green;
+  pointer-events: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 15px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: green;
+  color: white;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  font-size: 5em;
+  color: white;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.sec {
+  position: absolute;
+  padding: 100px;
+  background: #082A00;
+}
+
+.sec h2 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: whitesmoke;
+  font-weight: 200;
+}
